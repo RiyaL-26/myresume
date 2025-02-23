@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.resume-container {
+    width: 700px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 40px;
+    border: #2CA4A4;
+}
+.sidebar {
+    width: 30%;
+    height: 400%;
+    background-color: #2CA4A4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.sidebar h2 {
+    margin-bottom: 5px;
+}
+.sidebar p {
+    font-size: 14px;
+}
+.sidebar .section-title {
+    background: white;
+    color: #2CA4A4;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.resume-container{
+    width: 50%;
+}
+.content {
+    width: 60%;
+    padding: 20px;
+}
+.content h2 {
+    color: #2CA4A4;
+}
+.content h4 {
+    color:#2CA4A4;
+    font-size: 300%;
+}
+.content h5 {
+    color:#828686;
+    font-size: 150%;
+}
+.skills {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.skills {
+    background-color:#2CA4A4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px;
+}
+.skills span {
+    text-align: left;
+    display: flex;
+    background: white;
+    color: #2CA4A4;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.Qualities {
+    background-color:#2CA4A4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px;
+}
+.Qualities span {
+    text-align: left;
+    display: flex;
+    background: white;
+    color: #2CA4A4;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.Interest {
+    background-color:#2CA4A4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 5px;
+    }
+.Interest span {
+    text-align: left;
+    display: flex;
+    background: white;
+    color: #2CA4A4;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    }
+.languages {
+    width: 250px;
+    display: flex;
+}
+.languages h3 {
+    color: #2CA4A4;
+    border-bottom: 2px solid #2CA4A4;
+    display: inline;
+    margin-bottom: 10px;
+}
+.language {
+    display: inline;
+    margin-bottom: 5px;
+}
+.language span {
+    width: 80px;
+    font-size: large;
+    display: inline-flex;
+}
+.dots {
+    display: flex;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #2CA4A4;
+    display: inline;
+}
+.dot.empty {
+    background-color: transparent;
+    border: 1px solid #2CA4A4;
+}
+.extra{
+    width: 700px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 40px;
+    border: #2CA4A4;
+}
+/*.content .job {
+    margin-bottom: 15px;
+}
+.content .job h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+.content .job span {
+    font-size: 14px;
+    color: #777;
+}/*
+.skills span {
+    display: inline-block;
+    background: #2CA4A4;
+    color: white;
+    padding: 9px;
+    margin: 15px;
+    border-radius: 20px;
+    font-size: 12px;
+}
